@@ -33,7 +33,7 @@ What do you want to install on your computer?
     + Simple Tab Groups https://addons.mozilla.org/en-US/firefox/addon/simple-tab-groups/
     + Background Change https://superuser.com/questions/1495946/how-do-i-change-the-background-image-of-home-page-in-firefox
 
-Click on Dock, remove thigns you don't want, select Dock itself, turn hiding on.
+Click on Dock, remove things you don't want, select Dock itself, turn hiding on.
 Dock -> Dock Preferences: 
 Magnification -> Toggle on
 Show recent applications -> Toggle off
@@ -50,11 +50,15 @@ You can add configurations from old macs using Airdrop. CMD+Shift+. to view hidd
 
 - iterm configurations
 
-Transfer .iterm2/ and iterm2.sh_shell_integration.bash. 
+> Transfer .iterm2/ and iterm2.sh_shell_integration.bash.
+
+- iterm Preferences (might be under Settings)
+~~~
 iterm2->Preferences->General->Window (Smart Window Placement, Zoom maximises vertically only)
 iterm2->Preferences->Appearance->General (Compact Theme)
 iterm2->Preferences->Profiles->Window->Transparency (50%)
 iterm2->Preferences->Profiles->Terminal->Unlimited Scrollback
+~~~
 
 - bash configurations 
 
