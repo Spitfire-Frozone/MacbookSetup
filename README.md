@@ -405,7 +405,10 @@ brew autoremove
 
 ### Python
 For Python Development you want Anaconda to be your package manager as it handles python dependencies a lot better than pip. Create a python area
+If you don't have python installed on your machine already.
+
 ```bash
+   (brew install --cask python)
    brew install --cask anaconda
    mkdir Python && cd Python
    /opt/homebrew/anaconda3/bin/conda init "$(basename "${SHELL}")"
@@ -415,6 +418,10 @@ For Python Development you want Anaconda to be your package manager as it handle
    conda install anaconda anaconda-navigator #Navigator for anaging conda environments
 ```   
 
+<details> <summary> Troubleshooting </summary>
+I had trouble because I couldn't access    
+If the anaconda fails to install, go to www.anaconda.com/download/success 
+</details>
 
 Once you have an installation of conda and you have verified it works, what you can do it start off with your first managed conda enviroment. Working a bit like a container or an image, each conda environment will have whatever packages you install in it. it will manage conflicts and dependencies and each instance will be seperate from each other and your system python.
 
