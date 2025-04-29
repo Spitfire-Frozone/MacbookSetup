@@ -404,17 +404,21 @@ brew autoremove
 ## Coding Environment
 
 ### Python
-For Python Development you want Anaconda to be your package manager as it handles python dependencies a lot better than pip. Create a python area
-If you don't have python installed on your machine already.
+Create a python area
+If you don't have python installed on your machine already, install it with brew.
 
+```bash
+   brew install --cask python
+   mkdir Python && cd Python
+```
+For Python Development you want Anaconda to be your package manager as it handles python dependencies a lot better than pip. 
 2025 Edit, so Anaconda called a lot of places and started charging for use of their software - as they said that organisations were breaching their fair use policy. Many institutions have now blocked the download of its use, so if you were dependent on this, I would go back to pip as a package installer. 
 
 <details> <summary> AnaConda Installation and Use </summary>
     
 ```bash
-   (brew install --cask python)
    brew install --cask anaconda
-   mkdir Python && cd Python
+
    /opt/homebrew/anaconda3/bin/conda init "$(basename "${SHELL}")"
    <EXIT AND REENTER SHELL>
    conda activate
@@ -464,6 +468,19 @@ And if you want to leave said active environment
     conda deactivate cobraden
 ```
 </details>
+
+<details> <summary> Pip Installation and Use </summary>
+Pip comes installed with Python as standard so you don't any additional installation instructions.   
+```bash
+python3 -m venv applepip
+```
+When you are ready to use this environment, source it and then install the packages you need
+```    
+source ~/Python/applepip/bin/activate  # macOS/Linux (this is different for Windoes)
+pip install numpy
+```
+</details>
+
 - Jupyter Notebooks
 - GitLab/GitHub area
 - Tensorflow?
