@@ -12,13 +12,13 @@
 - [Permissions](#permissions)
     - [Certificates and Keys](#certificates-and-keys)
     - [VPN](#vpn)
-- [Organisation](#work-priority)
+- [Organisation](#organisation)
     - [Email Client](#email-client)
-    - [Calender](#calender)
-- [Making Documents](#making-documents)
+    - [Calendar](#calendar)
+- [Making and Editing Documents](#making-and-editing-documents)
     - [IDE or Code Editor](#ide-or-code-editor)
     - [Server Mounting](#server-mounting)
-- [Recreational](#recreational)˜
+- [Recreational](#recreational)
 - [All the Small Things](#all-the-small-things)
 
 ## Introduction
@@ -407,6 +407,10 @@ brew autoremove
 For Python Development you want Anaconda to be your package manager as it handles python dependencies a lot better than pip. Create a python area
 If you don't have python installed on your machine already.
 
+2025 Edit, so Anaconda called a lot of places and started charging for use of their software - as they said that organisations were breaching their fair use policy. Many institutions have now blocked the download of its use, so if you were dependent on this, I would go back to pip as a package installer. 
+
+<details> <summary> AnaConda Installation and Use </summary>
+    
 ```bash
    (brew install --cask python)
    brew install --cask anaconda
@@ -459,7 +463,7 @@ And if you want to leave said active environment
 ```bash
     conda deactivate cobraden
 ```
-
+</details>
 - Jupyter Notebooks
 - GitLab/GitHub area
 - Tensorflow?
