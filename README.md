@@ -470,6 +470,7 @@ And if you want to leave said active environment
 </details>
 
 <details> <summary> Pip Installation and Use </summary>
+    
 Pip comes installed with Python as standard so you don't any additional installation instructions.   
 ```bash
 python3 -m venv applepip
